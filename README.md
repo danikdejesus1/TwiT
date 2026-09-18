@@ -1,65 +1,114 @@
-# TwiT 1.0
+# TwiT — Twitch + Kick para Fire TV y Android TV
 
-![TwiT](branding/TwiT-banner.png)
+![Logo de TwiT](branding/TwiT-banner.png)
 
-**Creado por DanikDeJesus.** Cliente independiente para ver Twitch y Kick en Fire TV y Android TV, con navegación mediante mando.
+**Dos plataformas. Una pantalla. Hasta cuatro directos.**
 
-## Descargar e instalar
+TwiT reúne **Twitch y Kick en una app para Fire TV y Android TV**, con multivista (multiview), VOD y controles pensados para el mando. Creada por **DanikDeJesus**. Descarga gratuita, sin suscripción de TwiT y sin anuncios propios añadidos por la app.
 
-El APK se publica en [Releases](https://github.com/danikdejesus1/TwiT/releases). En Downloader puedes introducir el enlace directo:
+**[Descargar APK](https://github.com/danikdejesus1/TwiT/releases/latest/download/TwiT.apk)** · [Última versión y notas](https://github.com/danikdejesus1/TwiT/releases/latest) · [Reportar un problema](https://github.com/danikdejesus1/TwiT/issues)
 
-`https://github.com/danikdejesus1/TwiT/releases/latest/download/TwiT.apk`
+> Versión publicada: **1.1.2**. Cliente independiente y experimental; no es una app oficial de Twitch, Kick o Amazon. TwiT no garantiza eliminar los anuncios de las plataformas.
 
-Activa el permiso de instalación de aplicaciones desconocidas para Downloader, descarga el APK e instálalo. No necesitas un código numérico; este requiere crear un enlace corto aparte.
+## Twitch y Kick juntos, con multivista
 
-Requiere Android 9/API 28 o posterior; se ha probado en Fire OS 7. Las actualizaciones publicadas deben conservar el identificador y certificado de firma de TwiT.
+- **Hasta cuatro directos a la vez**, combinando canales de Twitch y Kick. Elige qué pantalla escuchar y ajusta la calidad de cada stream.
+- **Tus cuentas y canales seguidos** en un mismo inicio, con preview en vivo y búsqueda de canales.
+- **LIVE y OFFLINE:** aro violeta para Twitch y verde para Kick; acceso a los perfiles y a sus VOD disponibles.
+- **Favoritos:** marca la estrella del perfil, incluso estando offline. Recibe un aviso breve cuando el canal se conecte mientras ves otro directo.
+- **VOD con control de tiempo:** adelanta, retrocede y retoma el progreso desde Continuar viendo dentro del perfil del canal.
+- **Interfaz español/inglés**, control de sonido del preview y navegación mediante mando.
+- **Actualizaciones desde la app:** el icono ↻ junto al idioma consulta GitHub y permite descargar versiones posteriores con confirmación del instalador.
 
-## Funciones
+### Así se ve
 
-- Inicio con preview de directo, seguidos de Twitch/Kick y orden por espectadores.
-- Panel LIVE con aro violeta para Twitch y verde para Kick.
-- Canales OFFLINE con acceso a retransmisiones públicas.
-- Reproductor nativo, calidad automática/manual y multivista de hasta cuatro canales.
-- Selección de audio de una pantalla, pausa y favoritos locales.
-- VOD con barra de tiempo, duración y desplazamiento con el mando.
-- Chat de Twitch con emotes; chat de Kick de lectura mediante su popout oficial.
-- Conexión de cuentas, sin pedir contraseñas de Twitch dentro de la app.
-- Sin servicio de traducción ni suscripción propia.
+![Inicio de TwiT con Twitch y Kick, preview en vivo y canales offline](twit-home.png)
 
-## Probar y reportar problemas
+*Inicio de TwiT. Captura de la serie 1.1; los canales y su estado cambian en directo.*
 
-TwiT 1.0 es una versión para pruebas comunitarias. Cada persona inicia sesión con sus propias cuentas; el APK no incluye cuentas ni sesiones del creador.
+![Menú compacto de actualización de TwiT 1.1.2 en Fire TV](twit-updates.png)
 
-Para reportar un fallo, abre un [Issue](https://github.com/danikdejesus1/TwiT/issues) e indica el modelo del dispositivo, versión de Fire OS/Android, plataforma (Twitch o Kick), pasos para reproducirlo y lo que esperabas que ocurriera. Puedes adjuntar una captura sin datos personales. No publiques contraseñas, cookies, códigos de acceso ni tokens.
+*Actualizador de la versión 1.1.2, capturado antes de publicar esa versión en GitHub.*
 
-## Uso con mando
+## Instalar con Downloader
 
-Selecciona un canal con las flechas y pulsa el botón central. Dentro del vídeo, el botón de menú o las flechas muestran los controles; estos se ocultan después de cinco segundos sin uso. En un VOD, sube hasta la barra y usa izquierda/derecha para moverte diez segundos. En multivista puedes elegir el audio y la calidad de cada pantalla.
+1. Abre **Downloader** en tu Fire TV o dispositivo Android TV compatible.
+2. Introduce este enlace:
 
-## Compilar
+   ```text
+   https://github.com/danikdejesus1/TwiT/releases/latest/download/TwiT.apk
+   ```
 
-Necesitas JDK 17, Android SDK 35 y Build Tools 35.0.0. Configura `ANDROID_HOME` o un `local.properties` local con `sdk.dir`.
+3. Si el dispositivo lo solicita, permite que Downloader instale aplicaciones y abre el APK descargado.
+4. Abre TwiT y conecta tus propias cuentas desde **Cuentas**.
+
+Para actualizar, instala sobre la versión anterior **sin desinstalarla**, conservando cuentas y ajustes. Desde 1.1.2 puedes consultar futuras versiones con ↻. El dispositivo puede pedir autorizar instalaciones desde TwiT; vuelve después al menú y confirma la instalación.
+
+## Compatibilidad
+
+| Dispositivo | Situación |
+| --- | --- |
+| Fire TV con Fire OS 7 | Probado en Fire TV HD; requiere Android 9/API 28 o posterior. |
+| Android TV / Google TV | APK para dispositivos con Android 9 o posterior; compatibilidad no comprobada en todos los modelos. |
+| Smart TV Samsung con Tizen | No instala este APK de forma nativa. Puedes usar un Fire TV u otro dispositivo Android compatible conectado por HDMI. |
+| Smart TV LG con webOS | No instala este APK de forma nativa. Puedes usar un dispositivo compatible conectado por HDMI. |
+
+Cuatro directos a máxima calidad pueden superar la capacidad de un Fire TV HD. Reduce la calidad o el número de pantallas si hay cortes.
+
+## Preguntas frecuentes
+
+### ¿Puedo ver Twitch y Kick al mismo tiempo?
+
+Sí. La multivista permite mezclar directos de ambas plataformas, hasta cuatro pantallas, y seleccionar el audio de una de ellas.
+
+### ¿Es una app sin anuncios?
+
+**TwiT no añade anuncios propios.** No promete bloquear ni eliminar los anuncios de Twitch o Kick. Tampoco elimina patrocinios que un streamer incluya dentro de su vídeo. El comportamiento puede variar según la plataforma.
+
+### ¿Es gratis?
+
+El APK se puede descargar gratuitamente y TwiT no tiene suscripción propia. El acceso al contenido sigue sujeto a la disponibilidad y condiciones de Twitch y Kick.
+
+### ¿Sirve para cualquier Smart TV?
+
+No. Necesitas Fire TV o un sistema Android compatible. Que un televisor sea Smart TV no significa que pueda instalar APK de Android.
+
+### ¿Incluye cuentas o contraseñas?
+
+No. Cada usuario conecta sus propias cuentas. El APK no incluye sesiones del creador. Consulta la [política de privacidad](PRIVACY.md).
+
+### ¿Puedo sincronizar varios VOD por voz?
+
+Todavía no. La multivista actual es para directos. La multivista de VOD y su sincronización por audio son propuestas futuras, no funciones disponibles en 1.1.2.
+
+### ¿Tiene traducción automática o chat?
+
+No incluye traducción automática. El chat de Twitch admite emotes; el de Kick es de lectura mediante su página oficial. Las integraciones dependen de servicios que pueden cambiar.
+
+### ¿Dónde notifico errores?
+
+Abre un [Issue](https://github.com/danikdejesus1/TwiT/issues) con el modelo del dispositivo, versión del sistema, versión de TwiT, plataforma y pasos para reproducir el fallo. No compartas contraseñas, cookies, códigos de acceso ni tokens.
+
+## English overview
+
+**TwiT is a free-to-download Twitch and Kick APK for Fire TV and Android TV.** Watch up to four live streams in multiview, choose one stream's audio, adjust video quality, browse available VODs and resume watching from channel profiles. Remote-friendly interface in English and Spanish.
+
+Android 9 or later is required. Tested on Fire TV HD with Fire OS 7; performance depends on your device. This APK does not run natively on Samsung Tizen or LG webOS. TwiT adds no ads of its own, but does not guarantee removal of Twitch or Kick ads. Independent experimental client; not affiliated with Twitch, Kick or Amazon.
+
+[Download the latest APK](https://github.com/danikdejesus1/TwiT/releases/latest/download/TwiT.apk) · [Release notes](https://github.com/danikdejesus1/TwiT/releases/latest)
+
+## Código y compilación
+
+**Para el código de 1.1.2, descarga `TwiT-1.1.2-codigo.zip` de [su publicación](https://github.com/danikdejesus1/TwiT/releases/tag/v1.1.2).** El código de la rama `main` todavía corresponde a una versión anterior; esta presentación describe el APK publicado. No uses los archivos automáticos “Source code” de GitHub como código de 1.1.2.
+
+Necesitas JDK 17, Android SDK 35 y Build Tools 35.0.0. Configura `ANDROID_HOME` o un `local.properties` local. Desde el código descargado:
 
 ```sh
 sh gradlew :app:assembleDebug :app:testDebugUnitTest :app:lintDebug
 ```
 
-Para generar un APK sin depuración:
+El APK release debe firmarse con el certificado del mantenedor para actualizar la distribución existente. Nunca publiques claves privadas ni contraseñas de firma.
 
-```sh
-sh gradlew :app:assembleRelease
-```
+Consulta [PRIVACY.md](PRIVACY.md), [AUTHORS.md](AUTHORS.md) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). El progreso de VOD y los favoritos se guardan localmente; no se sincronizan entre dispositivos. TwiT no garantiza acceso a contenido privado o retirado de las plataformas.
 
-La salida release está sin firmar: el mantenedor debe firmarla con su almacén privado usando `apksigner`. Nunca subas el almacén ni sus contraseñas. El APK debug generado localmente puede tener otro certificado y no sustituir la versión distribuida.
-
-## Límites conocidos
-
-Esta app no es oficial ni está afiliada a Twitch, Kick o Amazon. La reproducción y parte de la integración de Kick dependen de interfaces del sitio que pueden cambiar. Los servicios conservan sus condiciones y restricciones; TwiT no garantiza acceso a vídeos privados ni eliminación de anuncios de las plataformas. Los términos de Kick para desarrolladores indican el uso de su reproductor insertado: https://dev.kick.com/terms-of-service . La integración nativa actual es experimental.
-
-Cuatro directos a máxima calidad pueden exceder la memoria o capacidad de decodificación del Fire TV HD. El chat de Kick es de lectura; no implementa envío con mando. No hay subtítulos traducidos por IA en esta versión. La compatibilidad no está certificada para todos los dispositivos.
-
-## Privacidad y autoría
-
-Consulta [PRIVACY.md](PRIVACY.md), [AUTHORS.md](AUTHORS.md) y [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). El identificador público del cliente OAuth de Twitch no es una contraseña; los tokens personales se generan al conectar cada cuenta y no se incluyen en este repositorio.
-
-Copyright © 2026 DanikDeJesus. La publicación del código no concede por sí sola una licencia de reutilización; todavía no se ha elegido una licencia para el código original. Las dependencias conservan sus propias licencias.
+Copyright © 2026 DanikDeJesus. La publicación del código no concede por sí sola una licencia de reutilización; todavía no se ha elegido una licencia para el código original. Las dependencias conservan sus licencias.
