@@ -1,0 +1,16 @@
+# Local builds and credentials
+.gradle/
+**/build/
+.cxx/
+**/.cxx/
+local.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+.env*
+!.env.example
+.DS_Store
+captures/
+*.apk
+*.idsig
